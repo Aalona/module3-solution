@@ -1,1 +1,116 @@
 
+ body {
+ 	color: #000;
+ 	background-color: #fff;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 17px;
+
+ }
+
+ /**HEADER**/
+ #header-nav {
+ 	background-color: #a8a6ab;
+ 	border-radius: 0;
+ 	border: 1px solid #000;
+ 	/*margin-bottom: 10px;*/
+}
+ .navbar-brand {
+ 	padding-top: 10px;
+
+}
+.navbar-brand h1, h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #000;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .80;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin: 0;
+}
+
+.navbar-nav>li>a {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	/*margin-top: 0;*/
+	padding: 5px 0 5px 0;
+}
+#nav-list a:hover {
+	background: #fff;
+	/*width: auto;*/
+}
+#nav-list a span {
+	color: #000;
+	/*font-family: "Comic Sans MS", cursive, sans-serif;*/
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+#collapsable-nav { /*will spread to the end*/
+	padding-right: 0;
+	padding-left: 0;
+}
+a {
+	border: 1px solid #000;
+	background-color: #fff;
+
+}
+.text-center {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #000;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-bottom: 30px;
+	margin-top: -10px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.2em;
+	padding: 10px 0 10px 0;
+}
+
+.row {
+	background-color: #a8a6ab;
+	position: relative;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.row {
+    position: relative;
+    margin: 0 40px 0 40px;
+}
+	h1 {
+	margin: 0 0 0 20px;
+	}
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	.row {
+    position: relative;
+    margin: 0 40px 0 40px;
+}
+	h1 {
+	margin: 0 0 0 20px;
+	}
+}
+
+
